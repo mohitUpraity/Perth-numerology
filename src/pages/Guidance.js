@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import { GUIDANCE_MESSAGES } from "../data/numerologyData";
 import PremiumActionBar from "../components/PremiumActionBar";
-//import { translateText } from "../utils/translateUtils";
+import { translateText } from "../utils/translateUtils";
 
 export default function Guidance({ history = [] }) {
   const [question, setQuestion] = useState("");
