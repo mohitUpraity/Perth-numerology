@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { TAROT_CARDS } from "../data/tarotData";
-import { translateText } from "../utils/translateUtils";
+//import { translateText } from "../utils/translateUtils";
 import PremiumActionBar from "../components/PremiumActionBar";
 
 function buildSummary(card) {

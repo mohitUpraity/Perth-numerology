@@ -1,7 +1,7 @@
 import { useMemo, useState } from "react";
 import PremiumActionBar from "../components/PremiumActionBar";
 import Gemstone3DViewer from "../components/Gemstone3DViewer";
-import { translateText } from "../utils/translateUtils";
+//import { translateText } from "../utils/translateUtils";
 
 const ZODIAC_GEMS = [
   { sign: "Aries", gem: "Diamond", color: "#f8fafc", shape: "diamond", range: "Mar 21 – Apr 19", why: "Supports courage, purity, leadership, and decisive energy.", wear: "Ring or pendant in silver/platinum, ideally on Friday or Tuesday.", benefits: "Boosts confidence, clarity, protection, and bold decision-making." },
